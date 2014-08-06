@@ -9,7 +9,7 @@
 #define CRYPTONOTE_MAX_TX_SIZE                          1000000000
 #define CRYPTONOTE_PUBLIC_ADDRESS_TEXTBLOB_VER          0
 //TODO Currency-specific address prefix
-#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX        
+#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX        0xdd
 //TODO Choose maturity period for your currency
 #define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            
 #define CURRENT_TRANSACTION_VERSION                     1
@@ -34,7 +34,7 @@
 //TODO Define number of smallest units in one coin
 #define COIN                                            
 //TODO Define default fee for transactions
-#define DEFAULT_FEE                                     
+#define DEFAULT_FEE              100000                       
 
 //TODO Define preferred block's target time
 #define DIFFICULTY_TARGET                               120 // seconds
